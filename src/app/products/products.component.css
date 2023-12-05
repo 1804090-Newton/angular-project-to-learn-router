@@ -1,0 +1,91 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Section styling */
+.section {
+    text-align: center;
+}
+
+.grey-text {
+    color: #757575;
+}
+
+.dark-grey-text {
+    color: #424242;
+}
+
+.w-header {
+    border: 1px solid #424242;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+/* Tab content styling */
+.tab-content {
+    margin-bottom: 5rem;
+}
+
+/* Grid row styling */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    flex: 0 0 100%; /* Set width to 100% for smaller screens */
+    margin-bottom: 1.5rem;
+}
+
+.card:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust this value for the desired height */
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-text {
+    color: #757575;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .col-md-12 {
+        text-align: center;
+    }
+
+    .col-md-6 {
+        margin-bottom: 2rem;
+    }
+
+    .mt-5 {
+        margin-top: 2rem;
+    }
+
+    .card {
+        flex: 0 0 calc(33.333% - 15px); /* Set width to 33.333% for larger screens with 15px margin */
+        margin-right: 15px;
+    }
+
+    .card:nth-child(3n) {
+        margin-right: 0; /* Remove right margin for every 3rd card in a row */
+    }
+}

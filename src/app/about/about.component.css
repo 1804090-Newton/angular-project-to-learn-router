@@ -1,0 +1,111 @@
+/* Reset some default margin on the body */
+body {
+    margin: 0;
+}
+
+/* Global styling */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Card styling */
+.card {
+    border: none;
+}
+
+.card img {
+    border-radius: 0.25rem;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Project detail section styling */
+.section {
+    padding: 5rem 0;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.list-unstyled p {
+    margin: 0;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+/* Social media icons */
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-dribbble {
+    font-size: 1.5rem;
+}
+
+/* Additional spacing */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+/* Share icons alignment */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+/* Adjusting the width of the links to avoid wrapping */
+.text-muted.pr-3,
+.text-muted {
+    white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .align-self-center {
+        text-align: center;
+    }
+
+    .col-md-6 {
+        padding-bottom: 1.5rem;
+    }
+
+    .p-5 {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.z-depth-1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.my-md-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.background-image {
+    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/People/12-col/img%20(97).jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.rgba-black-strong {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.p-5 {
+    padding: 1.25rem;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.mt-3 {
+    margin-top: 0.75rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.mx-md-5 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.md-form {
+    margin-top: 0;
+}
+
+.md-outline {
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.form-control {
+    border: none;
+    color: #fff; /* Text color inside the form */
+    font-weight: bold; /* Make text bold inside the form */
+}
+
+.md-textarea {
+    resize: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-md {
+    padding: 0.5rem 1rem;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.offset-md-1 {
+    margin-left: 8.333333%;
+}
+
+.form-heading {
+    font-weight: bold;
+    color: #fff;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+.mt-md-4 {
+    margin-top: 1rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
